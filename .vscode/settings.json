@@ -1,0 +1,16 @@
+{
+  "python.formatting.provider": "black",
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E402,F841,F401,E302,E305",
+  ],
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--disable=django-not-configured",
+  ],
+  "python.linting.pylintEnabled": false,
+  "python.linting.lintOnSave": true,
+  "python.linting.enabled": true,
+  "python.languageServer": "Pylance",
+  "editor.formatOnSave": true,
+}
